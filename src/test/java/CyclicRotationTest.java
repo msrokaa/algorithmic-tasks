@@ -1,5 +1,3 @@
-package cyclicrotation;
-
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -9,14 +7,14 @@ import java.util.stream.Stream;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
-public class CyclicRotationSolutionTest {
+public class CyclicRotationTest {
 
-    private final CyclicRotationSolution crSolution = new CyclicRotationSolution();
+    private final CyclicRotation cyclicRotation = new CyclicRotation();
 
     @ParameterizedTest
     @MethodSource("argumentsProvider")
     public void should_return_correct_array(int[] A, int K, int[] expectedResult) {
-        assertThat(crSolution.solution(A, K)).isEqualTo(expectedResult);
+        assertThat(cyclicRotation.solution(A, K)).isEqualTo(expectedResult);
     }
 
     static Stream<Arguments> argumentsProvider() {

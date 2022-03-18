@@ -1,8 +1,6 @@
-package binarygap;
-
 import static com.google.common.base.Preconditions.checkArgument;
 
-public class BinaryGapSolution {
+public class BinaryGap {
     public int solution(int N) {
         checkArgument(N > 0, "'N' must be positive");
         if (N < 5) {

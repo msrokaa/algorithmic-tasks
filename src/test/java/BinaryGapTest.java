@@ -1,13 +1,11 @@
-package binarygap;
-
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class BinaryGapSolutionTest {
+public class BinaryGapTest {
 
-    private final BinaryGapSolution bgSolution = new BinaryGapSolution();
+    private final BinaryGap binaryGap = new BinaryGap();
 
     @ParameterizedTest
     @CsvSource({
@@ -23,6 +21,6 @@ public class BinaryGapSolutionTest {
             "32, 0",
     })
     public void should_return_correct_binary_gap(int N, int expectedBinaryGap) {
-        assertThat(bgSolution.solution(N)).isEqualTo(expectedBinaryGap);
+        assertThat(binaryGap.solution(N)).isEqualTo(expectedBinaryGap);
     }
 }
