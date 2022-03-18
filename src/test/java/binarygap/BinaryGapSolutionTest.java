@@ -5,9 +5,9 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class SolutionTest {
+public class BinaryGapSolutionTest {
 
-    private final Solution solution = new Solution();
+    private final BinaryGapSolution bgSolution = new BinaryGapSolution();
 
     @ParameterizedTest
     @CsvSource({
@@ -22,7 +22,7 @@ public class SolutionTest {
             "1041, 5",
             "32, 0",
     })
-    public void should_return_correct_binary_gap(int number, int expectedResult) {
-        assertThat(solution.solution(number)).isEqualTo(expectedResult);
+    public void should_return_correct_binary_gap(int N, int expectedBinaryGap) {
+        assertThat(bgSolution.solution(N)).isEqualTo(expectedBinaryGap);
     }
 }
