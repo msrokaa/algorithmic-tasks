@@ -10,16 +10,17 @@ public class Solution {
         }
 
         char[] bin = Integer.toBinaryString(N).toCharArray();
-        int binaryGapMax = 0;
-        int lastOneIndex = 0;
+        int binaryGap = 0;
+        int lastBitOneIndex = 0;
 
         for (int i = 1; i < bin.length; i++) {
-            if (bin[i] == '1') {
-                binaryGapMax = Math.max(i - lastOneIndex - 1, binaryGapMax);
-                lastOneIndex = i;
+            if (bin[i] == '0' && bin[i - 1] == '1') {
+                lastBitOneIndex = i - 1;
+            } else if (bin[i] == '1' && bin[i - 1] == '0') {
+                binaryGap = Math.max(i - lastBitOneIndex - 1, binaryGap);
             }
         }
 
-        return binaryGapMax;
+        return binaryGap;
     }
 }
