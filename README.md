@@ -11,3 +11,7 @@ The solution to find an array element which occurs odd number of times.
 ### Frog Jump
 The solution to find the minimum number of jumps for the frog. `X` is the starting position, `Y` is the destination
 and `D` is the fixed distance of one jump.
+
+### Perm Missing Element
+The solution to find the missing array element. An array `A` contains `N` number of elements within the range
+[1, ..., N + 1], which means that exactly one element is missing.
