@@ -31,3 +31,8 @@ sums of these 2 parts of the array.
 We have an array `int[] A` (positive values) and variable `int X` (positive value). `A[0]` is the starting position
 for the frog. The frog has to jump on successive elements of the `A` array until it visits each value in the
 range [1..X].
+
+## PermCheck
+
+The solution to check if an array `var A = new int[N]` is a permutation. "Permutation" is an array containing
+each element from 1 to N once.
