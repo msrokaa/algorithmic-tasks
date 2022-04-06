@@ -1,20 +1,21 @@
-import java.util.TreeSet;
+import java.util.HashSet;
 
 public class MissingInteger {
     public int solution(int[] A) {
-        var set = new TreeSet<Integer>();
+        var set = new HashSet<Integer>();
+
         for (int item : A) {
             if (item > 0) {
                 set.add(item);
             }
         }
-        int counter = 1;
-        for (int item : set) {
-            if (item != counter) {
-                return counter;
+
+        for (int i = 1; i <= set.size(); i++) {
+            if (!set.contains(i)) {
+                return i;
             }
-            counter++;
         }
+
         return set.size() + 1;
     }
 }

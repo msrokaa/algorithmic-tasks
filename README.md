@@ -1,12 +1,12 @@
-| Task name | Correctness | Performance | Score |
-| :---: | :---: | :---: | :---: |
-| [BinaryGap](https://app.codility.com/programmers/lessons/1-iterations/binary_gap/) | 100% | 100% | 100% |
-| [CyclicRotation](https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/) | 100% | 100% | 100% |
-| [OddOccurrencesInArray](https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/) | 100% | 100% | 100% |
-| [FrogJmp](https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/) | 100% | 100% | 100% |
-| [PermMissingElem](https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/) | 100% | 100% | 100% |
-| [TapeEquilibrium](https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/) | 100% | 100% | 100% |
-| [FrogRiverOne](https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/) | 100% | 100% | 100% |
-| [PermCheck](https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/) | 100% | 100% | 100% |
-| [MaxCounters](https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/) | 100% | 100% | 100% |
-| [MissingInteger](https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/) | 100% | 75% | 88% |
+| Task name | Description | Solution | Correctness | Performance | Score |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| BinaryGap | [Here](https://app.codility.com/programmers/lessons/1-iterations/binary_gap/) | [Here](https://github.com/misroka95/algorithmic-tasks/blob/master/src/main/java/BinaryGap.java) | 100% | 100% | 100% |
+| CyclicRotation | [Here](https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/) | [Here](https://github.com/misroka95/algorithmic-tasks/blob/master/src/main/java/CyclicRotation.java) | 100% | 100% | 100% |
+| OddOccurrencesInArray | [Here](https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/) | [Here](https://github.com/misroka95/algorithmic-tasks/blob/master/src/main/java/OddOccurrencesInArray.java) | 100% | 100% | 100% |
+| FrogJmp | [Here](https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/) | [Here](https://github.com/misroka95/algorithmic-tasks/blob/master/src/main/java/FrogJmp.java) | 100% | 100% | 100% |
+| PermMissingElem | [Here](https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/) | [Here](https://github.com/misroka95/algorithmic-tasks/blob/master/src/main/java/PermMissingElem.java) | 100% | 100% | 100% |
+| TapeEquilibrium | [Here](https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/) | [Here](https://github.com/misroka95/algorithmic-tasks/blob/master/src/main/java/TapeEquilibrium.java) | 100% | 100% | 100% |
+| FrogRiverOne | [Here](https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/) | [Here](https://github.com/misroka95/algorithmic-tasks/blob/master/src/main/java/FrogRiverOne.java) | 100% | 100% | 100% |
+| PermCheck | [Here](https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/) | [Here](https://github.com/misroka95/algorithmic-tasks/blob/master/src/main/java/PermCheck.java) | 100% | 100% | 100% |
+| MaxCounters | [Here](https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/) | [Here](https://github.com/misroka95/algorithmic-tasks/blob/master/src/main/java/MaxCounters.java) | 100% | 100% | 100% |
+| MissingInteger | [Here](https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/) | [Here](https://github.com/misroka95/algorithmic-tasks/blob/master/src/main/java/MissingInteger.java) | 100% | 100% | 100% |
