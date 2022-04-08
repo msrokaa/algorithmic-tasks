@@ -11,3 +11,4 @@
 | MaxCounters | [Here](https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/) | [Here](https://github.com/misroka95/algorithmic-tasks/blob/master/src/main/java/MaxCounters.java) | 100% | 100% | 100% |
 | MissingInteger | [Here](https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/) | [Here](https://github.com/misroka95/algorithmic-tasks/blob/master/src/main/java/MissingInteger.java) | 100% | 100% | 100% |
 | PassingCars | [Here](https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/) | [Here](https://github.com/misroka95/algorithmic-tasks/blob/master/src/main/java/PassingCars.java) | 100% | 100% | 100% |
+| CountDiv | [Here](https://app.codility.com/programmers/lessons/5-prefix_sums/count_div/) | [Here](https://github.com/misroka95/algorithmic-tasks/blob/master/src/main/java/CountDiv.java) | 100% | 100% | 100% |
