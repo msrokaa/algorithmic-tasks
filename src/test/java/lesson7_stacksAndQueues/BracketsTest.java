@@ -7,6 +7,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 import java.util.stream.Stream;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 public class BracketsTest {
 
@@ -20,22 +21,22 @@ public class BracketsTest {
 
     static Stream<Arguments> argumentsProvider() {
         return Stream.of(
-                Arguments.arguments("", 1),
-                Arguments.arguments("[]", 1),
-                Arguments.arguments("[]()", 1),
-                Arguments.arguments("[](){}", 1),
-                Arguments.arguments("{[](){}}", 1),
-                Arguments.arguments("{[()()][]}{}[]", 1),
-                Arguments.arguments("{[()]}", 1),
-                Arguments.arguments("{()()}", 1),
-                Arguments.arguments("{(()()}", 0),
-                Arguments.arguments("{", 0),
-                Arguments.arguments("}", 0),
-                Arguments.arguments("{}}", 0),
-                Arguments.arguments("{{}", 0),
-                Arguments.arguments("(((", 0),
-                Arguments.arguments(")))", 0),
-                Arguments.arguments("([)()]", 0)
+                arguments("", 1),
+                arguments("[]", 1),
+                arguments("[]()", 1),
+                arguments("[](){}", 1),
+                arguments("{[](){}}", 1),
+                arguments("{[()()][]}{}[]", 1),
+                arguments("{[()]}", 1),
+                arguments("{()()}", 1),
+                arguments("{(()()}", 0),
+                arguments("{", 0),
+                arguments("}", 0),
+                arguments("{}}", 0),
+                arguments("{{}", 0),
+                arguments("(((", 0),
+                arguments(")))", 0),
+                arguments("([)()]", 0)
         );
     }
 }
