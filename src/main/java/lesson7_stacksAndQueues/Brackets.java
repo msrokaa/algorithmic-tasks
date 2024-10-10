@@ -11,20 +11,16 @@ public class Brackets {
         preconditions(S);
 
         Stack<Character> openingBrackets = new Stack<>();
-        Stack<Character> closingBrackets = new Stack<>();
 
         for (char currentChar : S.toCharArray()) {
             if (isBracketOpening(currentChar)) {
                 openingBrackets.push(currentChar);
-                closingBrackets.push(getClosingBracketOf(currentChar));
-            } else if (!closingBrackets.isEmpty() && currentChar == closingBrackets.pop()) {
-                openingBrackets.pop();
-            } else {
+            } else if (openingBrackets.isEmpty() || currentChar != getClosingBracketOf(openingBrackets.pop())) {
                 return 0;
             }
         }
 
-        return openingBrackets.isEmpty() && closingBrackets.isEmpty() ? 1 : 0;
+        return openingBrackets.isEmpty() ? 1 : 0;
     }
 
     private boolean isBracketOpening(char bracket) {
